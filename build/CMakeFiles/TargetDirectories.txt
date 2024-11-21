@@ -1,0 +1,11 @@
+/home/geekmax/Named_pipe(2.0)/build/CMakeFiles/edit_cache.dir
+/home/geekmax/Named_pipe(2.0)/build/CMakeFiles/rebuild_cache.dir
+/home/geekmax/Named_pipe(2.0)/build/NamedPipeLibrary/CMakeFiles/NamedPipeLibrary.dir
+/home/geekmax/Named_pipe(2.0)/build/NamedPipeLibrary/CMakeFiles/edit_cache.dir
+/home/geekmax/Named_pipe(2.0)/build/NamedPipeLibrary/CMakeFiles/rebuild_cache.dir
+/home/geekmax/Named_pipe(2.0)/build/Launch/client/CMakeFiles/ClientApp.dir
+/home/geekmax/Named_pipe(2.0)/build/Launch/client/CMakeFiles/edit_cache.dir
+/home/geekmax/Named_pipe(2.0)/build/Launch/client/CMakeFiles/rebuild_cache.dir
+/home/geekmax/Named_pipe(2.0)/build/Launch/server/CMakeFiles/ServerApp.dir
+/home/geekmax/Named_pipe(2.0)/build/Launch/server/CMakeFiles/edit_cache.dir
+/home/geekmax/Named_pipe(2.0)/build/Launch/server/CMakeFiles/rebuild_cache.dir
