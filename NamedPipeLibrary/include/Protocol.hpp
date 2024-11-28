@@ -19,8 +19,8 @@ public:
         GET_ALARMS = 0x09
     };
 
-    static std::vector<uint8_t> serialize(MessageType type, const std::vector<uint8_t>& data);
+    static std::vector<uint8_t> serialize(MessageType type, const std::vector<uint8_t>& data = {});
     static std::pair<MessageType, std::vector<uint8_t>> deserialize(const std::vector<uint8_t>& packet);
 };
 
-#endif
+#endif // PROTOCOL_HPP

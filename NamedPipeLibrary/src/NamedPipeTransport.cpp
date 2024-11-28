@@ -34,7 +34,6 @@ NamedPipeTransport::~NamedPipeTransport() {
 }
 
 void NamedPipeTransport::write(const std::vector<uint8_t>& data) {
-    std::cout<<"Atempt to write";
     std::ofstream pipe(write_pipe_, std::ios::binary);
     if (!pipe.is_open()) {
         throw std::runtime_error("Failed to open write pipe");
@@ -44,14 +43,12 @@ void NamedPipeTransport::write(const std::vector<uint8_t>& data) {
 }
 
 std::vector<uint8_t> NamedPipeTransport::read() {
-    std::cout<<"Atempt to read";
-    
     std::ifstream pipe(read_pipe_, std::ios::binary);
     if (!pipe.is_open()) {
         throw std::runtime_error("Failed to open read pipe");
     }
     std::vector<uint8_t> data((std::istreambuf_iterator<char>(pipe)), std::istreambuf_iterator<char>());
-    std::cout<<"Atempt to read2";
+    
     pipe.close();
     return data;
 }

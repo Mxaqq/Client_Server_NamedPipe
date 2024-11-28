@@ -135,4 +135,10 @@ Launch/server/CMakeFiles/ServerApp.dir/main.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/geekmax/Named_pipe(2.0)/NamedPipeLibrary/include/Protocol.hpp
+ /home/geekmax/Named_pipe(2.0)/NamedPipeLibrary/include/Protocol.hpp \
+ /usr/include/c++/11/set /usr/include/c++/11/bits/stl_tree.h \
+ /usr/include/c++/11/ext/aligned_buffer.h \
+ /usr/include/c++/11/bits/node_handle.h \
+ /usr/include/c++/11/bits/stl_set.h \
+ /usr/include/c++/11/bits/stl_multiset.h \
+ /usr/include/c++/11/bits/erase_if.h
